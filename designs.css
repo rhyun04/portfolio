@@ -1,0 +1,342 @@
+/* nav bar */
+.homeicon{
+    margin-left:20%;
+}
+
+.navie{
+    margin-right: 7%;
+}
+
+.nav-item{
+    padding: 3%;
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;;
+    font-size: 20px;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+/* text */ 
+.text{ 
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#231D1D;
+    font-size: 26px;
+    margin-left: 5%;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.rhysDesigns{
+    font-family: open-sans, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 28px;
+    color:#231D1D;
+}
+
+.moreDesc{
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #231D1D;
+    font-size: 20px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+/* content */ 
+.content{ 
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+
+.cardSection{
+    width:70%;
+}
+
+.logo{
+    justify-content: center;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons{
+    margin-top: auto;
+    margin-bottom: auto;
+    /* border: 1px solid white; */
+}
+
+/* .frames{
+    border: 1px solid green;
+} */
+
+.frame{
+    padding: 0% 2%;
+}
+
+.secty{
+    margin-top: 3%;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+/* text description */
+.details{
+    text-align: left;
+    width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.title{
+    font-family: open-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #231D1D;
+    font-size: 26px;
+}
+
+.description{
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #231D1D;
+    font-size: 16px;
+}
+
+/* background */
+.wad{
+    background-color: #F0E3F2;
+}
+
+.word{
+    background-color: #FFEDD1;  
+}
+
+.bday1{
+    background: radial-gradient(44.6% 44.6% at 44.77% 55.4%, #275CB2 0%, rgba(39, 92, 178, 0.85) 100%);
+}
+
+.bday2{
+    background: linear-gradient(95.38deg, #DDDCDA 14.42%, rgba(221, 220, 218, 0.57) 92.42%);
+}
+
+.wordle{
+    background: radial-gradient(55.8% 55.8% at 50% 50%, #2E65A0 0%, #5C92CB 100%);
+}
+
+.donation{
+    background-color: #F4E9F3;
+}
+
+.kbrtm{
+    background-color: #F7F0E2;
+}
+
+.bump{
+    background-color: #A8C1D3;
+}
+
+.quote{
+    background-color:  #FFD4B1;
+}
+
+.tipRand{
+    background-color: #B8C6CC;
+}
+
+.mwfc{
+    background: linear-gradient(96.1deg, #8985AD 13.21%, #DDDCF1 87.31%);
+}
+
+.end{
+    background-color: #E7E7E7;
+}
+
+/* footer */ 
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F3F3F3;
+    color: #231D1D;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.footlinks{ 
+    color: #696868;
+}
+
+.links{
+    margin-top: 1%;
+}
+
+/* responsive */
+@-webkit-keyframes jittery {
+
+    5%,
+    50% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    10% {
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+    }
+
+    15% {
+        -webkit-transform: scale(1.15);
+                transform: scale(1.15);
+    }
+
+    20% {
+        -webkit-transform: scale(1.15) rotate(-5deg);
+                transform: scale(1.15) rotate(-5deg);
+    }
+
+    25% {
+        -webkit-transform: scale(1.15) rotate(5deg);
+                transform: scale(1.15) rotate(5deg);
+    }
+
+    30% {
+        -webkit-transform: scale(1.15) rotate(-3deg);
+                transform: scale(1.15) rotate(-3deg);
+    }
+
+    45% {
+        -webkit-transform: scale(1.15) rotate(2deg);
+                transform: scale(1.15) rotate(2deg);
+    }
+
+    60% {
+        -webkit-transform: scale(1.15) rotate(0);
+                transform: scale(1.15) rotate(0);
+    }
+}
+
+@keyframes jittery {
+
+    5%,
+    50% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    10% {
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+    }
+
+    15% {
+        -webkit-transform: scale(1.15);
+                transform: scale(1.15);
+    }
+
+    20% {
+        -webkit-transform: scale(1.15) rotate(-5deg);
+                transform: scale(1.15) rotate(-5deg);
+    }
+
+    25% {
+        -webkit-transform: scale(1.15) rotate(5deg);
+                transform: scale(1.15) rotate(5deg);
+    }
+
+    30% {
+        -webkit-transform: scale(1.15) rotate(-3deg);
+                transform: scale(1.15) rotate(-3deg);
+    }
+
+    45% {
+        -webkit-transform: scale(1.15) rotate(2deg);
+                transform: scale(1.15) rotate(2deg);
+    }
+
+    60% {
+        -webkit-transform: scale(1.15) rotate(0);
+                transform: scale(1.15) rotate(0);
+    }
+}
+
+@media screen and (max-width:767px){
+    .homeicon{
+        width:20%;
+        margin-left: 2%;
+    }
+
+    .logo{
+        width: 20%;
+        padding-bottom: 2%;
+    }
+
+    .title{
+        font-size: 18px;
+    }
+
+    .details{
+        margin-bottom: 5%;
+    }
+
+    .description{
+        font-size: 14px;
+    }
+
+    .text{
+        width:80%;
+        font-size: 20px;
+    }
+
+    .moreDesc{
+        font-size: 16px;
+    }
+
+    .butt{
+        width: 50%;
+        padding: 3%;
+    }
+    
+    body{
+        /* background-color:rgb(245, 235, 220); */
+        background-image: url(./img/phonebg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        width:auto;
+        background-position: center center;  
+    }
+
+    .nav-item{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        /* background-color:rgb(245, 235, 220); */
+        background-image: url(./img/phonebg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        width:auto;
+        background-position: center center;  
+    }
+}
